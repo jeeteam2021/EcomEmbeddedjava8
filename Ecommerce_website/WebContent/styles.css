@@ -10,13 +10,14 @@ Reset
   --black3: #252525;
   --black4: #000;
   --black5: #212529;
-  --orange: #eb0028;
+  --orange:#ff0000;
   --white: #fff;
   --grey: #959595;
   --grey2: #666;
-  --grey3: #ccc;
+  --grey3: #c0c0c0;
   --secondaryColor: #2b1f4d;
   --yellow: #ffcc00;
+  
   --green: #59b210;
   --blue: rgb(56, 10, 223);
 }
@@ -25,12 +26,14 @@ Reset
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 body,
@@ -66,6 +69,7 @@ Header
 
 .header {
   position: relative;
+  background:yellow; /* entete */
 }
 
 .container {
@@ -84,6 +88,7 @@ Navigation
   position: relative;
   height: 7rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  
 }
 
 .nav {
@@ -342,12 +347,14 @@ Hero Area
   position: relative;
   width: 100%;
   height: 100vh;
+  
 }
 
 .hero .glide__bullet {
   background-color: #222;
   width: 1.2rem;
   height: 1.2rem;
+  
 }
 
 .hero .glide__arrow {
@@ -402,19 +409,29 @@ Hero Area
   margin: 0 auto;
   height: 100%;
   padding-top: 3rem;
+ 
 }
 
 .hero__left {
   padding: 0 3rem;
   flex: 0 0 50%;
-}
 
+}
+.hero__left span{
+	color:#800040;
+}
+.hero__left p{
+	color:#800040;
+}
+.hero__left h1 {
+	color:#563729;
+}
 .hero__btn {
   display: inline-block;
   font-weight: 700;
   font-size: 1.4rem;
-  background-color: var(--black);
-  color: var(--primaryColor);
+  background-color: #ff8040;
+   
   cursor: pointer;
   margin-top: 1rem;
   padding: 1.5rem 4rem;
@@ -539,11 +556,13 @@ Collection
 }
 
 .collection__box img.collection_01 {
-  width: 60%;
+  width: 95%;
+ 
 }
 
 .collection__box img.collection_02 {
-  width: 75%;
+  width: 300%;
+  height:100%;
 }
 
 .collection__content {
@@ -866,7 +885,7 @@ span.dot::before {
   width: 100%;
   padding: 1.4rem 0;
   border: 1px solid var(--black);
-  color: var(--black);
+  color: red;
   cursor: pointer;
 }
 
@@ -875,7 +894,7 @@ span.dot::before {
 }
 
 .product__btn:hover {
-  background-color: var(--black);
+  background-color: #ff8040;
   color: var(--primaryColor);
 }
 

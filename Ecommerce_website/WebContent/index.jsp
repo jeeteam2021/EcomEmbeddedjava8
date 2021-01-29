@@ -8,7 +8,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
 
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
 
 
   <!-- Carousel -->
@@ -38,13 +38,13 @@
 
           <div class="nav__logo">
             <a href="/" class="scroll-link">
-              PHONE
+            SHOES
             </a>
           </div>
 
           <div class="nav__menu">
             <div class="menu__top">
-              <span class="nav__category">PHONE</span>
+              <span class="nav__category"> SHOES</span>
               <a href="#" class="close__toggle">
                 <svg>
                   <use xlink:href="./images/sprite.svg#icon-cross"></use>
@@ -99,14 +99,14 @@
             <li class="glide__slide">
               <div class="hero__center">
                 <div class="hero__left">
-                  <span class="">New Inspiration 2020</span>
-                  <h1 class="">PHONES MADE FOR YOU!</h1>
-                  <p>Trending from mobile and headphone style collection</p>
-                  <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                  <span class="">Nouvelle inspiration 2021</span>
+                  <h1 class="">Chaussures faites pour vous</h1>
+                  <p>Tendances de la collection des chaussures 2021</p>
+                  <a href="#"><button class="hero__btn">Achetez maintenant</button></a>
                 </div>
                 <div class="hero__right">
                   <div class="hero__img-container">
-                    <img class="banner_01" src="./images/banner_01.png" alt="banner2" />
+                    <img class="banner_01" src="./images/banner_01.jpg" alt="banner2" />
                   </div>
                 </div>
               </div>
@@ -114,13 +114,13 @@
             <li class="glide__slide">
               <div class="hero__center">
                 <div class="hero__left">
-                  <span>New Inspiration 2020</span>
-                  <h1>PHONES MADE FOR YOU!</h1>
-                  <p>Trending from mobile and headphone style collection</p>
-                  <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                  <span>Nouvelle inspiration 2021</span>
+                  <h1>Chaussures faites pour vous!</h1>
+                  <p>Tendances de la collection des chaussures 2021</p>
+                  <a href="#"><button class="hero__btn">Achetez maintenant</button></a>
                 </div>
                 <div class="hero__right">
-                  <img class="banner_02" src="./images/banner_02.png" alt="banner2" />
+                  <img class="banner_02" src="./images/banner_02.jpg" alt="banner2" />
                 </div>
               </div>
             </li>
@@ -152,40 +152,14 @@
   <main id="main">
     <div class="container">
       <!-- Collection -->
-      <section id="collection" class="section collection">
-        <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
-          <div class="collection__box">
-            <div class="img__container">
-              <img class="collection_02" src="./images/collection_02.png" alt="">
-            </div>
-            <div class="collection__content">
-              <div class="collection__data">
-                <span>New Colors Introduced</span>
-                <h1>HEADPHONES</h1>
-                <a href="#shop">SHOP NOW</a>
-              </div>
-            </div>
-          </div>
-          <div class="collection__box">
-            <div class="img__container">
-              <img class="collection_01" src="./images/collection_01.png" alt="">
-            </div>
-            <div class="collection__content">
-              <div class="collection__data">
-                <span>Phone Device Presets</span>
-                <h1>SMARTPHONES</h1>
-                <a href="#">SHOP NOW</a>
-              </div>
-            </div>
-          </div>
-      </section>
+      
 
       <!-- Latest Products -->
       <section class="section latest__products" id="latest">
         <div class="title__container">
           <div class="section__title active" data-id="Latest Products">
             <span class="dot"></span>
-            <h1 class="primary__title">Latest Products</h1>
+            <h1 class="primary__title">Derniers produits</h1>
           </div>
         </div>
         <div class="container" data-aos="fade-up" data-aos-duration="1200">
@@ -195,10 +169,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="/images/products/iPhone/iphone6.jpeg" alt="product">
+                      <img src="images/nike0.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>NIKE</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -213,7 +187,7 @@
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                       </div>
                       <div class="product__price">
@@ -249,10 +223,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="/images/products/sumsung/samsung5.jpeg" alt="product">
+                      <img src="./images/vans1.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Vans</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -303,10 +277,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="/images/products/headphone/headphone4.jpeg" alt="product">
+                      <img src="./images/nike3.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>NIKE</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -315,10 +289,10 @@
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
@@ -357,10 +331,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="/images/products/sumsung/samsung3.jpeg" alt="product">
+                      <img src="./images/puma1.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Puma</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -375,7 +349,7 @@
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                       </div>
                       <div class="product__price">
@@ -411,10 +385,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="./images/products/iPhone/iphone2.jpeg" alt="product">
+                      <img src="./images/adidas1.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>Adidas</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -426,7 +400,7 @@
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
@@ -465,10 +439,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="images/products/headphone/headphone2.jpeg" alt="product">
+                      <img src="images/puma2.jpeg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>Puma</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -481,6 +455,60 @@
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product__price">
+                        <h4>$300</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                    <ul>
+                      <li>
+                        <a data-tip="Quick View" data-place="left" href="#">
+                          <svg>
+                            <use xlink:href="./images/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a data-tip="Add To Wishlist" data-place="left" href="#">
+                          <svg>
+                            <use xlink:href="./images/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a data-tip="Add To Compare" data-place="left" href="#">
+                          <svg>
+                            <use xlink:href="./images/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="./images/puma6.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Puma</h3>
+                      <div class="rating">
+                        <svg>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
@@ -519,14 +547,11 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="images/products/sumsung/samsung1.jpeg" alt="product">
+                      <img src="images/adidas4.jpeg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Adidas</h3>
                       <div class="rating">
-                        <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                        </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
@@ -538,57 +563,6 @@
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
-                        </svg>
-                      </div>
-                      <div class="product__price">
-                        <h4>$300</h4>
-                      </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
-                    </div>
-                    <ul>
-                      <li>
-                        <a data-tip="Quick View" data-place="left" href="#">
-                          <svg>
-                            <use xlink:href="./images/sprite.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a data-tip="Add To Wishlist" data-place="left" href="#">
-                          <svg>
-                            <use xlink:href="./images/sprite.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a data-tip="Add To Compare" data-place="left" href="#">
-                          <svg>
-                            <use xlink:href="./images/sprite.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="glide__slide">
-                  <div class="product">
-                    <div class="product__header">
-                      <img src="images/products/headphone/headphone1.jpeg" alt="product">
-                    </div>
-                    <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
-                      <div class="rating">
-                        <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                        </svg>
-                        <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                        </svg>
-                        <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                        </svg>
-                        <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
@@ -627,10 +601,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <img src="images/products/iPhone/iphone1.jpeg" alt="product">
+                      <img src="./images/puma3.jpg" alt="product">
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone XR</h3>
+                      <h3>Puma</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -645,7 +619,7 @@
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                       </div>
                       <div class="product__price">
