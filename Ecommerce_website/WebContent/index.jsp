@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -64,20 +65,9 @@
               <li class="nav__item">
                 <a href="#contact" class="nav__link scroll-link">Contact</a>
               </li>
-              <li class="nav__item">
-                <form action="#">
-            	<input type="email" placeholder="rechercher le produit ..." style="border-radius: 5px" class="nav__link scroll-link">
-            	
-          		</form>
-              </li>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link scroll-link">Rechercher</a>
-              </li>
             </ul>
-            
           </div>
-			
+
           <div class="nav__icons">
             <a href="#" class="icon__item">
               <svg class="icon__user">
@@ -91,11 +81,14 @@
               </svg>
             </a>
 
-            <a href="#" class="icon__item">
-              <svg class="icon__cart">
+            <a href="#" class="icon__item" >
+              <svg class="icon__cart" >
                 <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
               </svg>
-              <span id="cart__total">0</span>
+              
+           
+           <span id="cart__total"  >0</span>
+      
             </a>
           </div>
         </nav>
@@ -113,7 +106,9 @@
                   <span class="">Nouvelle inspiration 2021</span>
                   <h1 class="">Chaussures faites pour vous</h1>
                   <p>Tendances de la collection des chaussures 2021</p>
-                  <a href="#"><button class="hero__btn">Achetez maintenant</button></a>
+                  <form action="butt1" method="Post">
+                  <a href="#"><button name="action" class="hero__btn" value="jk">Achetez maintenant</button></a>
+                  </form>
                 </div>
                 <div class="hero__right">
                   <div class="hero__img-container">
@@ -204,13 +199,17 @@
                       <div class="product__price">
                         <h4>$750</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="1">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-eye"></use>
+                       
+                            <use  xlink:href="./images/sprite.svg#icon-eye"></use>
+                          
                           </svg>
                         </a>
                       </li>
@@ -222,11 +221,13 @@
                         </a>
                       </li>
                       <li>
+                       <form action="butt1" method="Post">
                         <a data-tip="Add To Compare" data-place="left" href="#">
                           <svg>
                             <use xlink:href="./images/sprite.svg#icon-loop2"></use>
                           </svg>
                         </a>
+                        </form>
                       </li>
                     </ul>
                   </div>
@@ -258,7 +259,9 @@
                       <div class="product__price">
                         <h4>$900</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="2">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -312,7 +315,9 @@
                       <div class="product__price">
                         <h4>$600</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                       <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="3">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -366,7 +371,9 @@
                       <div class="product__price">
                         <h4>$850</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                       <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" value="4" name="action">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -420,7 +427,9 @@
                       <div class="product__price">
                         <h4>$450</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="5">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -474,7 +483,9 @@
                       <div class="product__price">
                         <h4>$300</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                        <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" value="6" name="action">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -528,7 +539,10 @@
                       <div class="product__price">
                         <h4>$300</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                                        <form action="butt1" method="Post">
+                      
+                      <a href="#"><button type="submit" class="product__btn" value="9" name="action">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -582,7 +596,9 @@
                       <div class="product__price">
                         <h4>$250</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <form action="butt1" method="Post">            
+                      <a href="#"><button type="submit" class="product__btn" value="8" name="action">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
@@ -636,7 +652,9 @@
                       <div class="product__price">
                         <h4>$550</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                        <form action="butt1" method="Post">       
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="7">Add To Cart</button></a>
+                      </form>
                     </div>
                     <ul>
                       <li>
