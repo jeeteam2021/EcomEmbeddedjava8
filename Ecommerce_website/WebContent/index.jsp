@@ -64,9 +64,20 @@
               <li class="nav__item">
                 <a href="#contact" class="nav__link scroll-link">Contact</a>
               </li>
+              <li class="nav__item">
+                <form action="#">
+            	<input type="email" placeholder="rechercher le produit ..." style="border-radius: 5px" class="nav__link scroll-link">
+            	
+          		</form>
+              </li>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link scroll-link">Rechercher</a>
+              </li>
             </ul>
+            
           </div>
-
+			
           <div class="nav__icons">
             <a href="#" class="icon__item">
               <svg class="icon__user">
