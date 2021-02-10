@@ -151,7 +151,7 @@ let picActive = 1;
       const target = e.target.closest("img");
       if (!target) return;
       const id = target.id.slice(3);
-      changeImage(`./images/products/iPhone/iphone${id}.jpeg`, id);
+      changeImage(`./images/products/vans/vans${id}.jpg`, id);
     });
   }
 });
