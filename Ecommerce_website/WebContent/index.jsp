@@ -65,9 +65,16 @@
               <li class="nav__item">
                 <a href="#contact" class="nav__link scroll-link">Contact</a>
               </li>
+              
             </ul>
           </div>
-
+          <div>
+          		<form action="SearchServlet" method="Post">
+            		<input type="text" placeholder="Rechercher" name="productsearch" style="border-radius: 5px ;" class="nav__link scroll-link">
+            		<button type="submit" style="border-radius: 5px;" class="nav__link scroll-link" >rechercher</button>
+          		</form>
+          </div>
+				
           <div class="nav__icons">
             <a href="#" class="icon__item">
               <svg class="icon__user">
