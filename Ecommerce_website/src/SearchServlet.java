@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SearchServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	ArrayList<Product> Produits = new ArrayList<Product>();
-	Product produit = new Product();
+
 	String htmlproducts = "<section class=\"section latest__products\" id=\"latest\">\r\n"
 			+ "        <div class=\"title__container\">\r\n"
 			+ "          <div class=\"section__title active\" data-id=\"Latest Products\">\r\n"
@@ -47,7 +47,6 @@ public class SearchServlet extends HttpServlet {
 		String ProductSearch = request.getParameter("productsearch");
 		
 		Search(ProductSearch);
-		htmlproducts =htmlproducts+"\n<h3>il n ya rien de produit </h3>";
 		htmlproducts = htmlproducts+"<div class=\"glide__arrows\" data-glide-el=\"controls\">\r\n"
 				+ "          <button class=\"glide__arrow glide__arrow--left\" data-glide-dir=\"<\">\r\n"
 				+ "            <svg>\r\n"
@@ -65,7 +64,6 @@ public class SearchServlet extends HttpServlet {
 				+ "  </section>\r\n";
 		
 		request.setAttribute("htmlproducts", htmlproducts);
-		System.out.println(produit.getProduct_Description());
 		getServletContext().getRequestDispatcher(url).forward(request, response);
 	}
 
@@ -83,7 +81,7 @@ public class SearchServlet extends HttpServlet {
 			
 			while(rs.next())
 	        {
-	            
+				Product produit = new Product();
 	            produit.setProduct_Id(rs.getString(1));
 	            produit.setProduct_Name(rs.getString(2));
 	            produit.setProduct_Image(rs.getString(3));
@@ -95,10 +93,10 @@ public class SearchServlet extends HttpServlet {
 	            htmlproducts = htmlproducts+"<li class=\"glide__slide\">\r\n"
 	            		+ "                  <div class=\"product\">\r\n"
 	            		+ "                    <div class=\"product__header\">\r\n"
-	            		+ "                      <img src=\"images/products/"+produit.getProduct_Image()+" alt=\"product\">\r\n"
+	            		+ "                      <img src=\"images/products/headphone/headphone2.jpeg\" alt=\"product\">\r\n"
 	            		+ "                    </div>\r\n"
 	            		+ "                    <div class=\"product__footer\">\r\n"
-	            		+ "                      <h3>" +produit.getProduct_Name() + "</h3>\r\n"
+	            		+ "                      <h3>"+produit.getProduct_Name()+"</h3>\r\n"
 	            		+ "                      <div class=\"rating\">\r\n"
 	            		+ "                        <svg>\r\n"
 	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-full\"></use>\r\n"
@@ -116,8 +114,8 @@ public class SearchServlet extends HttpServlet {
 	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-empty\"></use>\r\n"
 	            		+ "                        </svg>\r\n"
 	            		+ "                      </div>\r\n"
-	            		+ "                      <div class=\""+produit.getProduct_Price()+"\">\r\n"
-	            		+ "                        <h4>$750</h4>\r\n"
+	            		+ "                      <div class=\"product__price\">\r\n"
+	            		+ "                        <h4>"+produit.getProduct_Price()+"</h4>\r\n"
 	            		+ "                      </div>\r\n"
 	            		+ "                      <a href=\"#\"><button type=\"submit\" class=\"product__btn\">Add To Cart</button></a>\r\n"
 	            		+ "                    </div>\r\n"
