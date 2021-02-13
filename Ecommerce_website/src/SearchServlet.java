@@ -93,7 +93,7 @@ public class SearchServlet extends HttpServlet {
 	            htmlproducts = htmlproducts+"<li class=\"glide__slide\">\r\n"
 	            		+ "                  <div class=\"product\">\r\n"
 	            		+ "                    <div class=\"product__header\">\r\n"
-	            		+ "                      <img src=\"images/products/headphone/headphone2.jpeg\" alt=\"product\">\r\n"
+	            		+ "                      <img src=\"images/adidas4.jpeg\" alt=\"product\">\r\n"
 	            		+ "                    </div>\r\n"
 	            		+ "                    <div class=\"product__footer\">\r\n"
 	            		+ "                      <h3>"+produit.getProduct_Name()+"</h3>\r\n"
@@ -108,7 +108,7 @@ public class SearchServlet extends HttpServlet {
 	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-full\"></use>\r\n"
 	            		+ "                        </svg>\r\n"
 	            		+ "                        <svg>\r\n"
-	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-full\"></use>\r\n"
+	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-empty\"></use>\r\n"
 	            		+ "                        </svg>\r\n"
 	            		+ "                        <svg>\r\n"
 	            		+ "                          <use xlink:href=\"./images/sprite.svg#icon-star-empty\"></use>\r\n"
@@ -117,7 +117,9 @@ public class SearchServlet extends HttpServlet {
 	            		+ "                      <div class=\"product__price\">\r\n"
 	            		+ "                        <h4>"+produit.getProduct_Price()+"</h4>\r\n"
 	            		+ "                      </div>\r\n"
-	            		+ "                      <a href=\"#\"><button type=\"submit\" class=\"product__btn\">Add To Cart</button></a>\r\n"
+	            		+ "                      <form action=\"butt1\" method=\"Post\">            \r\n"
+	            		+ "                      <a href=\"#\"><button type=\"submit\" class=\"product__btn\" value=\"8\" name=\"action\">Add To Cart</button></a>\r\n"
+	            		+ "                      </form>\r\n"
 	            		+ "                    </div>\r\n"
 	            		+ "                    <ul>\r\n"
 	            		+ "                      <li>\r\n"
@@ -143,7 +145,7 @@ public class SearchServlet extends HttpServlet {
 	            		+ "                      </li>\r\n"
 	            		+ "                    </ul>\r\n"
 	            		+ "                  </div>\r\n"
-	            		+ "                </li>\r\n";
+	            		+ "                </li>";
 	            
 
 	        }
