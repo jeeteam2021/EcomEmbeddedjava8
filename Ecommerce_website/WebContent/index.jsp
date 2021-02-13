@@ -71,7 +71,7 @@
           <div>
           		<form action="SearchServlet" method="Post">
             		<input type="text" placeholder="Rechercher" name="productsearch" style="border-radius: 5px ;" class="nav__link scroll-link">
-            		<button type="submit" style="border-radius: 5px;" class="nav__link scroll-link" >rechercher</button>
+            		<button type="submit" style="border-radius: 5px;" >rechercher</button>
           		</form>
           </div>
 				
