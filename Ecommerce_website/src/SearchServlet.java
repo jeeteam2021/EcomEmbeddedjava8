@@ -42,7 +42,7 @@ public class SearchServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url="/searchresult.jsp?htmlproducts";
+		String url="/searchresult.jsp";
 		
 		String ProductSearch = request.getParameter("productsearch");
 		
@@ -65,6 +65,17 @@ public class SearchServlet extends HttpServlet {
 		
 		request.setAttribute("htmlproducts", htmlproducts);
 		getServletContext().getRequestDispatcher(url).forward(request, response);
+		htmlproducts = "<section class=\"section latest__products\" id=\"latest\">\r\n"
+				+ "        <div class=\"title__container\">\r\n"
+				+ "          <div class=\"section__title active\" data-id=\"Latest Products\">\r\n"
+				+ "            <span class=\"dot\"></span>\r\n"
+				+ "            <h1 class=\"primary__title\">Resultat de recherche</h1>\r\n"
+				+ "          </div>\r\n"
+				+ "        </div>\r\n"
+				+ "        <div class=\"container\" data-aos=\"fade-up\" data-aos-duration=\"1200\">\r\n"
+				+ "          <div class=\"glide\" id=\"glide_2\">\r\n"
+				+ "            <div class=\"glide__track\" data-glide-el=\"track\">\r\n"
+				+ "              <ul class=\"glide__slides latest-center\">\r\n";
 	}
 
 	protected void Search(String Product){
@@ -78,7 +89,10 @@ public class SearchServlet extends HttpServlet {
 			Statement S = con.createStatement();
 			String query = "select * from produit where product_name like '%"+Product+"%';";
 			ResultSet rs = S.executeQuery(query);
-			
+			if(!rs.next()) {
+				htmlproducts = htmlproducts + "<h3>n'ya pas plus de produits</h3>";
+			}
+			else {
 			while(rs.next())
 	        {
 				Product produit = new Product();
@@ -148,7 +162,8 @@ public class SearchServlet extends HttpServlet {
 	            		+ "                </li>";
 	            
 
-	        }
+	        	}
+			}
 		}
 		catch(ClassNotFoundException e){
 			e.printStackTrace();
