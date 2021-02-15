@@ -159,12 +159,11 @@
               </a>
             </div>
           </div>
-
-          <div class="product-detail__right">
+  <div class="product-detail__right">
             <div class="product-detail__content">
-              <h3>Apple iPhone XR</h3>
+              <h3>Ozweego white</h3>
               <div class="price">
-                <span class="new__price">$250.99</span>
+                <span class="new__price">$120.99</span>
               </div>
               <div class="product__review">
                 <div class="rating">
@@ -184,13 +183,12 @@
                     <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                   </svg>
                 </div>
-                <a href="#" class="rating__quatity">3 reviews</a>
+                <a href="#" class="rating__quatity">5 reviews</a>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                a doloribus iste natus et facere?
-                dolor sit amet consectetur adipisicing elit. Sunt
-                a doloribus iste natus et facere?
+                Adidas has always been a pretty popular brand with me! I love their
+                 shoes! They are high quality made, stylish, and last forever!! 
+                 Their shoes are also great! I love adidas
               </p>
               <div class="product__info-container">
                 <ul class="product__info">
@@ -198,15 +196,18 @@
                     <div class="select__option">
                       <label for="colors">Color</label>
                       <select name="colors" id="colors" class="select-box">
-                        <option value="blue">blue</option>
-                        <option value="red">red</option>
+                        <option value="white">white</option>
+                        <option value="grey">grey</option>
+                        <option value="black">black</option>
                       </select>
                     </div>
                     <div class="select__option">
-                      <label for="size">Inches</label>
+                      <label for="size">Size</label>
                       <select name="size" id="size" class="select-box">
-                        <option value="6.65">6.65</option>
-                        <option value="7.50">7.50</option>
+                        <option value="36">36</option>
+                        <option value="40">40</option>
+                        <option value="43">43</option>
+                        <option value="46">46</option>
                       </select>
                     </div>
                   </li>
@@ -231,46 +232,30 @@
                   </li>
 
                   <li>
-                    <span>Subtotal:</span>
-                    <a href="#" class="new__price">$250.99</a>
+                    <span>3$ coupon for new users</span>
                   </li>
                   <li>
-                    <span>Brand:</span>
-                    <a href="#">Apple</a>
+                    <span>eExpedition from US</span>
+                    <a href="#" class="new__price">$74.29</a>
                   </li>
                   <li>
-                    <span>Product Type:</span>
-                    <a href="#">Phone</a>
+                    <div class="select__option">
+                      <label for="colors">Shipped from </label>
+                      <select name="colors" id="colors" class="select-box">
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                      </select>
+                    </div>
                   </li>
                   <li>
-                    <span>Availability:</span>
-                    <a href="#" class="in-stock">In Stock (7 Items)</a>
-                  </li>
-                </ul>
-                <div class="product-info__btn">
-                  <a href="#">
-                    <span>
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#icon-crop"></use>
-                      </svg>
-                    </span>&nbsp;
-                    SIZE GUIDE
-                  </a>
-                  <a href="#">
-                    <span>
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#icon-truck"></use>
-                      </svg>
-                    </span>&nbsp;
-                    SHIPPING
-                  </a>
-                  <a href="#">
-                    <span>
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#icon-envelope-o"></use>
-                      </svg>&nbsp;
+                    <span class="buy-now-wrap" aria-haspopup="true" aria-expanded="false">
+                    <button title="" type="button" class="next-btn next-large next-btn-primary buynow" 
+                    role="button" data-spm-anchor-id="a2g0o.detail.1000016.i6.7aa477f6A6ojo9">Acheter maintenant</button>
                     </span>
-                    ASK ABOUT THIS PRODUCT
+                    <span class="addcart-wrap" aria-haspopup="true" aria-expanded="false"><button title="" type="button" 
+                    class="next-btn next-large next-btn-primary addcart" role="button">Ajouter au panier</button></span>
+                  </li>
+                  
                   </a>
                 </div>
               </div>
@@ -298,59 +283,80 @@
             <div class="section__titles">
               <div class="section__title detail-btn" data-id="shipping">
                 <span class="dot"></span>
-                <h1 class="primary__title">Shipping Details</h1>
+                <h1 class="primary__title">Details</h1>
               </div>
             </div>
           </div>
 
           <div class="detail__content">
             <div class="content active" id="description">
-              <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam
-                dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des
-                commodo pharetras loremos.Donec pretium egestas sapien et mollis.
-              </p>
-              <h2>Sample Unordered List</h2>
-              <ul>
-                <li>Comodous in tempor ullamcorper miaculis</li>
-                <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
-                <li>Divamus sit amet purus justo.</li>
-                <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
-              </ul>
-              <h2>Sample Ordered Lista</h2>
-              <ol>
-                <li>Comodous in tempor ullamcorper miaculis</li>
-                <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
-                <li>Divamus sit amet purus justo.</li>
-                <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+		      <ol>
+                <li>We can accept drop shipping.</li>
+                <li>If the customer is US or CA, I suggest choosing UPS. (5 ~ 8 days delivery).</li>
+                <li>We will send out every order ASAP.</li>
+                <li>We will never put invoices, QR codes, promotions or brand logo or anything on 
+                aliexpress in drop shipping shipment.</li>
+                <li>I will pay attention to every drop shipping order.</li>
+                <li>We will make sure there is enough inventory.</li>
+                <li>We can provide customized services.</li>
               </ol>
-              <h2>Sample Paragraph Text</h2>
-              <p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras
-                felis
-                nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec
-                danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper
-                neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at
-                tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus
-                pulvinar. Vestibulum sit amet auctor ipsum.</p>
+             	<img src="https://ae01.alicdn.com/kf/Hb3da34b7a28e4277aab3e02bd9ba01c8G.jpg" 
+             	class="detail-desc-decorate-image" style="margin-bottom: 10px;
+             	" data-spm-anchor-id="a2g0o.detail.1000023.i1.473c5fdbTooAad">
             </div>
             <div class="content" id="reviews">
-              <h1>Customer Reviews</h1>
-              <div class="rating">
-                <svg>
-                  <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                </svg>
-                <svg>
-                  <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                </svg>
-                <svg>
-                  <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                </svg>
-                <svg>
-                  <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-                </svg>
-                <svg>
-                  <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
-                </svg>
-              </div>
+              <div class="customer-reviews" data-spm-anchor-id="0.0.0.i1.61d9QIgzQIgze9">Customer Reviews (51)</div>
+              <div class="rate-detail util-clearfix">
+        <ul class="rate-list">
+            <li data-spm-anchor-id="0.0.0.i0.61d9QIgzQIgze9">
+                <span class="r-title">5 stars</span>
+                <span class="r-graph">
+                    <b class="r-graph-scroller" style="width:82.0%;"></b>
+                </span>
+                <span class="r-num fb-star-list-href" data="5 Stars">82%</span>
+            </li>
+            <li>
+                <span class="r-title">4 stars</span>
+                <span class="r-graph">
+                    <b class="r-graph-scroller" style="width:10.0%;"></b>
+                </span>
+                <span class="r-num fb-star-list-href" data="4 Stars">10%</span>
+            </li>
+            <li>
+                <span class="r-title">3 stars</span>
+                <span class="r-graph">
+                    <b class="r-graph-scroller" style="width:2.0%;"></b>
+                </span>
+                <span class="r-num fb-star-list-href" data="3 Stars">2%</span>
+            </li>
+            <li>
+                <span class="r-title">2 stars</span>
+                <span class="r-graph">
+                    <b class="r-graph-scroller" style="width:2.0%;"></b>
+                </span>
+                <span class="r-num fb-star-list-href" data="2 Stars">2%</span>
+            </li>
+            <li>
+                <span class="r-title">1 star</span>
+                <span class="r-graph">
+                    <b class="r-graph-scroller" style="width:4.0%;"></b>
+                </span>
+                <span class="r-num fb-star-list-href" data="1 Stars">4%</span>
+            </li>
+        </ul>
+        <div class="rate-score">
+			<span class="rate-score-number"><b>4.6</b><span> / 5</span></span>
+            <div class="star-view-big"><span style="width:92.9%"></span></div>
+			<div id="scoreTipsContentId" style="display:none;position:absolute;" class="tip-popup left">
+				<strong><span class="t">Note :</span></strong>
+				<span class="c">All information displayed is based on reviews received for this
+				produced in the last 6 months. To learn more about our rating system,
+					<a href="//help.aliexpress.com/feedback_policy.html" target="_blank">Click Here</a>
+				</span>
+			</div>
+        </div>
+    </div>
+              
             </div>
             <div class="content" id="shipping">
               <h3>Returns Policy</h3>
@@ -380,6 +386,76 @@
               </p>
             </div>
           </div>
+          <div class="tab-inner" data-spm-anchor-id="a2g0o.detail.0.i10.473c5fdbTooAad"><span class="tab-inner-text" 
+          data-spm-anchor-id="a2g0o.detail.0.i9.473c5fdbTooAad">DETAILS</span></div>
+          <span class="tab-inner-text" data-spm-anchor-id="a2g0o.detail.0.i9.473c5fdbTooAad">DETAILS</span>
+          </div>
+          
+          
+          <div style="display: block;"><div class="product-specs">
+          <ul class="product-specs-list util-clearfix" data-spm-anchor-id="a2g0o.detail.0.i15.473c5fdbTooAad">
+          <li class="product-prop line-limit-length" data-spm-anchor-id="a2g0o.detail.0.i12.473c5fdbTooAad">
+          <span class="property-title" data-spm-anchor-id="a2g0o.detail.0.i13.473c5fdbTooAad">Brand name:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="hecrafted" 
+          data-spm-anchor-id="a2g0o.detail.0.i16.473c5fdbTooAad">Adidas</span>
+          </li><li class="product-prop line-limit-length"><span class="property-title">type of shoes:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="De base">Espadrilles</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Original:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="CN (Origine)">CN (Origine)</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Upper Material:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Microfibre">Microfibre</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Shoes Height:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="ANKLE">ANKLE</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Pattern Type:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Solide">Solide</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Department Name:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Adulte">Adult</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Lining Material:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Synthétique">Synthetic</span>
+          </li><li class="product-prop line-limit-length"><span class="property-title">Sole Material:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Fabric">Fabric</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Shaft material:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Synthétique">Synthetic</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Toe shape:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Bout rond">Round toe</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Type of the article:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Bottes">Basket</span></li>
+          <li class="product-prop line-limit-length"><span class="property-title">Outsole Material:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="RUBBER">RUBBER</span>
+          </li>
+          <li class="product-prop line-limit-length">
+          <span class="property-title">Saison:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Printemps / Automne">Spring / Fall</span>
+          </li>
+          <li class="product-prop line-limit-length">
+          <span class="property-title">Heel Height:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="Med (3 cm-5 cm)">Med (3 cm-5 cm)</span>
+          </li>
+          <li class="product-prop line-limit-length">
+          <span class="property-title">Model Number:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="AL603C4">AL603C4</span>
+          </li>
+          <li class="product-prop line-limit-length">
+          <span class="property-title">Closure Type:&nbsp;</span>
+          <span class="property-desc line-limit-length" title="ZIP">ZIP</span>
+          </li>
+          <li class="product-prop line-limit-length">
+          <span class="property-title">Adjustment:&nbsp;</span>
+          <span class="property-desc line-limit-length"
+           title="Fits true to size, take your normal size">
+           Fits true to size, take your normal size</span>
+           </li>
+           <li class="product-prop line-limit-length">
+           <span class="property-title">Handmade:&nbsp;</span>
+           <span class="property-desc line-limit-length" title="Pas de">No</span>
+           </li>
+           <li class="product-prop line-limit-length">
+           <span class="property-title">Fashion Element:&nbsp;</span>
+           <span class="property-desc line-limit-length" title="Décoration en métal">Metal decoration</span>
+           </li></ul></div></div>
+          
+          
+          
         </div>
       </section>
 
@@ -398,10 +474,11 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/sumsung/samsung5.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/f81eb5b1e2d24e05982eaa4800918996_9366/Chaussure_OZWEEGO_Noir_EE7002_01_standard.jpg"
+                      alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Ozweego Shoes</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -420,7 +497,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$900</h4>
+                        <h4>$110</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -453,10 +530,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/iPhone/iphone6.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/4e894c2b76dd4c8e9013aafc016047af_9366/Chaussure_Superstar_Blanc_FV3284_01_standard.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>Superstar Shoes</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -475,7 +552,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$750</h4>
+                        <h4>$90</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -507,10 +584,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/sumsung/samsung3.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a6d4944-4b68-40c5-8215-972233dbc4ab/chaussure-air-force-1-07-pour-ktGJCV.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Nike Air Force 1</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -561,10 +638,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="./images/products/iPhone/iphone2.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://i.pinimg.com/originals/6f/b1/19/6fb119d82607f7c77261eb23ab84ad95.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>Lacoste Sneakers T-Clip</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -583,7 +660,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$450</h4>
+                        <h4>$66</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -615,10 +692,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/headphone/headphone4.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-FR-Site/Sites-master/fr/dw1c55ebb6/39SMA0085_03A_01.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>Lacoste Sneakers G80 OG</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -637,7 +714,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$600</h4>
+                        <h4>$70</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -670,10 +747,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/sumsung/samsung1.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://scene7.zumiez.com/is/image/zumiez/image/FILA-Disruptor-Multicolor-%26-White-Shoes-_311646.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>FILA Disruptor Multicolor & White Shoes</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -692,7 +769,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$300</h4>
+                        <h4>$49</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -724,10 +801,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/headphone/headphone2.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/51Bbt-5NJ6L._AC_UY575_.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>Prada 4E3198 Match Racer Baskets </h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -746,7 +823,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$300</h4>
+                        <h4>$30</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -832,10 +909,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/iPhone/iphone1.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://www.rocher-services.fr/2686-large_default/basket-homme-mascot.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone XR</h3>
+                      <h3>Mascot Sneackers</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -854,7 +931,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$550</h4>
+                        <h4>$50</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -906,7 +983,7 @@
         <div class="title__container">
           <div class="section__title filter-btn active" data-id="Latest Products">
             <span class="dot"></span>
-            <h1 class="primary__title">Latest Products</h1>
+            <h1 class="primary__title">Seller recommendations</h1>
           </div>
         </div>
         <div class="container" data-aos="fade-up" data-aos-duration="1200">
@@ -916,10 +993,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/iPhone/iphone6.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://www.pataugas.com/Files/126922/Img/23/BASKET-HOMME-PLINE-H2E-GRIS-PERLE-PATAUGAS-1-zoom.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>Pataugas PLINE H2E </h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -938,7 +1015,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$750</h4>
+                        <h4>$87</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -970,10 +1047,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/sumsung/samsung5.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://cdn.fashiola.fr/L629657391/cycleur-de-luxe-sneakers-illinois-cdlm201401-white.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Illinois CDLM201401 White</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -992,7 +1069,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$900</h4>
+                        <h4>$93</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1024,10 +1101,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/headphone/headphone4.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://www.hardrige.com/9676-thickbox_default/sneakers-cuir-homme-ilie-blanc.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>SNEAKERS ILIE WHITE LEATHER BBR</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1046,7 +1123,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$600</h4>
+                        <h4>$179</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1078,10 +1155,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="/images/products/sumsung/samsung3.jpeg" alt="product"></a>
+                      <a href="#"><img src="http://paradise-sneakers.com/image/cache/data/mens/sneakers-homme-luxe-fashion-basket-hype-style-2012-2013-ref24-500x500.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>Basket Hype Style 2012 2013 Ref24</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1100,7 +1177,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$850</h4>
+                        <h4>$120</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1132,10 +1209,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="./images/products/iPhone/iphone2.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://ae01.alicdn.com/kf/HTB1.eH5NSzqK1RjSZPxq6A4tVXa1/Leader-Show-hommes-chaussures-d-contract-es-haut-de-gamme-confortable-hommes-chaussures-de-mode-en.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone 11</h3>
+                      <h3>Zapatillas flat shoes</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1154,7 +1231,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$450</h4>
+                        <h4>$70</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1186,10 +1263,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/headphone/headphone2.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://assetsprx.matchesfashion.com/img/product/1386506_1_large.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>CHRISTIAN LOUBOUTIN</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1208,7 +1285,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$300</h4>
+                        <h4>$480</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1240,10 +1317,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/sumsung/samsung1.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://cdn.modesens.com/media/103137572" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Samsung Galaxy</h3>
+                      <h3>CHRISTIAN LOUBOUTIN Louis Orlato mesh and leather high-top sneakers</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1262,7 +1339,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$300</h4>
+                        <h4>$669</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1294,10 +1371,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/headphone/headphone1.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://static.galerieslafayette.com/media/684/68460935/G_68460935_325_VPP_1.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Sony WH-CH510</h3>
+                      <h3>Y-3 — Baskets basses Yuben Low</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1316,7 +1393,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$250</h4>
+                        <h4>$138</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1348,10 +1425,10 @@
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
-                      <a href="#"><img src="images/products/iPhone/iphone1.jpeg" alt="product"></a>
+                      <a href="#"><img src="https://i.pinimg.com/originals/8b/6a/09/8b6a09160e62b63bf0e8e5867563fac1.jpg" alt="product"></a>
                     </div>
                     <div class="product__footer">
-                      <h3>Apple iPhone XR</h3>
+                      <h3>EL Gato Loco</h3>
                       <div class="rating">
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -1370,7 +1447,7 @@
                         </svg>
                       </div>
                       <div class="product__price">
-                        <h4>$550</h4>
+                        <h4>$110</h4>
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
@@ -1498,7 +1575,7 @@
                 <use xlink:href="./images/sprite.svg#icon-location"></use>
               </svg>
             </span>
-            42 Dream House, Dreammy street, 7131 Dreamville, USA
+            89, Allal El Fassi, Rabat, Morocco
           </div>
           <div>
             <span>
@@ -1506,7 +1583,7 @@
                 <use xlink:href="./images/sprite.svg#icon-envelop"></use>
               </svg>
             </span>
-            company@gmail.com
+            JEE_TEAM@gmail.com
           </div>
           <div>
             <span>
@@ -1516,14 +1593,7 @@
             </span>
             456-456-4512
           </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
-              </svg>
-            </span>
-            Dream City, USA
-          </div>
+
         </div>
       </div>
     </div>
@@ -1560,4 +1630,5 @@
   <script src="./js/slider.js"></script>
 </body>
 
-</html>
+
+         </html>

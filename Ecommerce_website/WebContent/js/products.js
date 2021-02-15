@@ -152,6 +152,7 @@ let picActive = 1;
       if (!target) return;
       const id = target.id.slice(3);
       changeImage(`./images/products/vans/vans${id}.jpg`, id);
+     
     });
   }
 });

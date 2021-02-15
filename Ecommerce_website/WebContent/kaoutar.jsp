@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +23,7 @@
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="styles.css" />
 
-  <title>Phone Shop</title>
+  <title>SHOES Shop</title>
 </head>
 
 <body>
@@ -37,13 +39,13 @@
 
           <div class="nav__logo">
             <a href="/" class="scroll-link">
-              Shoes
+              SHOES
             </a>
           </div>
 
           <div class="nav__menu">
             <div class="menu__top">
-              <span class="nav__category">Shoes</span>
+              <span class="nav__category">SHOES</span>
               <a href="#" class="close__toggle">
                 <svg>
                   <use xlink:href="./images/sprite.svg#icon-cross"></use>
@@ -52,16 +54,22 @@
             </div>
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="/" class="nav__link">Home</a>
+                <a href="/" class="nav__link">HOME</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Products</a>
+                <a href="#" class="nav__link">Man</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Blog</a>
+                <a href="#" class="nav__link">Woman</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Collections</a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link">Contact</a>
+              </li>
+               <li class="nav__item">
+                <a href="#" class="nav__link">Account</a>
               </li>
             </ul>
           </div>
@@ -84,6 +92,11 @@
                 <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
               </svg>
               <span id="cart__total">0</span>
+              
+              <svg id="bag-inactive" viewBox="0 0 16 24"><title>bag-inactive</title>
+              <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2">
+              <path d="M1 7h14v14H1z"></path><path d="M11 10V3H5v7"></path></g></svg>
+              
             </a>
           </div>
         </nav>
@@ -101,7 +114,7 @@
                 </svg>
               </a>
             </li>
-            <li class="page__title">iPhone 11</li>
+            <li class="page__title">Shoes Luxe</li>
           </ul>
         </div>
       </div>
@@ -117,25 +130,25 @@
             <div class="details__container--left">
               <div class="product__pictures">
                 <div class="pictures__container">
-                  <img class="picture" src="./images/products/puma/puma5.jpg" id="pic5" />
+                  <img class="picture" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/7e068903da7645b98653ab7300f87f86_9366/Chaussure_OZWEEGO_Beige_FV9655_01_standard.jpg" id="pic1" />
                 </div>
                 <div class="pictures__container">
-                  <img class="picture" src="./images/products/puma/puma2.jpg" id="pic2" />
+                  <img class="picture" src="https://i8.amplience.net/i/jpl/jd_364157_a?qlt=9" id="pic2" />
                 </div>
                 <div class="pictures__container">
-                  <img class="picture" src="./images/products/puma/puma3.jpg" id="pic3" />
+                  <img class="picture" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/9795569916f7496c88beab7300f8d1d6_9366/Chaussure_OZWEEGO_Gris_FV9656_01_standard.jpg" id="pic3" />
                 </div>
                 <div class="pictures__container">
-                  <img class="picture" src="./images/products/puma/puma4.jpg" id="pic4" />
+                  <img class="picture" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/5e75560f82174e6b94e3ab11010bf055_9366/Chaussure_OZWEEGO_Blanc_EF4287_01_standard.jpg" id="pic4" />
                 </div>
                 <div class="pictures__container">
-                  <img class="picture" src="./images/products/puma/puma1.jpg" id="pic1" />
+                  <img class="picture" src="https://www.shooos.fr/media/catalog/product/cache/11/image/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas-ozweego-fv96541.jpg" id="pic5" />
                 </div>
               </div>
               <div class="product__picture" id="product__picture">
                 <!-- <div class="rect" id="rect"></div> -->
                 <div class="picture__container">
-                  <img src="./images/products/puma/puma5.jpg" id="pic" />
+                  <img src="https://img01.ztat.net/article/spp-media-p1/98b5fdb9e83a315297feb65927365560/54da94c350f5433199b4a0237d5ef0ff.jpg" id="pic" />
                 </div>
               </div>
               <div class="zoom" id="zoom"></div>
@@ -160,7 +173,7 @@
             </div>
           </div>
 
-           <div class="product-detail__right">
+          <div class="product-detail__right">
             <div class="product-detail__content">
               <h3>Ozweego white</h3>
               <div class="price">
@@ -1626,11 +1639,9 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- Custom JavaScript -->
-  <script src="./js/puma.js"></script>
+  <script src="./js/products.js"></script>
   <script src="./js/index.js"></script>
   <script src="./js/slider.js"></script>
 </body>
-
-         
 
 </html>
