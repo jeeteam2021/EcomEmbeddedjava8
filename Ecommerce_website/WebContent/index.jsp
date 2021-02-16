@@ -897,7 +897,7 @@
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
-                      <img src="./images/news1.jpg" alt="">
+                      <img src="./images/products/boutique/b1.jpg" alt="">
                     </div>
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
@@ -911,7 +911,7 @@
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
-                      <img src="./images/news2.jpg" alt="">
+                      <img src="./images/products/boutique/b2.jpg" alt="">
                     </div>
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
@@ -925,7 +925,7 @@
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
-                      <img src="./images/news3.jpg" alt="">
+                      <img src="./images/products/boutique/b3.jpg" alt="">
                     </div>
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
@@ -939,7 +939,7 @@
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
-                      <img src="./images/news4.jpg" alt="">
+                      <img src="./images/products/boutique/b4.png" alt="">
                     </div>
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
@@ -953,7 +953,7 @@
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
-                      <img src="./images/news5.jpg" alt="">
+                      <img src="./images/products/boutique/b5.jpg" alt="">
                     </div>
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
