@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -798,51 +800,33 @@
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="./images/profile1.jpg" alt="profile">
+                    <img src="./images/products/profile/p1.jpg" alt="profile">
                   </div>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing
-                    elit. Recusandae fuga hic nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <p>You can never put too much emphasis on your choice of shoes. A lot of women don't think it's important when you really recognize a woman's elegance in what she wears on her feet.</p>
                   <div class="client__info">
-                    <h3>John Smith</h3>
-                    <span>Founder at Apple</span>
+                    <h3>Christian Dior</h3>
                   </div>
                 </div>
               </li>
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="./images/profile2.jpg" alt="profile">
+                    <img src="./images/products/profile/p2.jpg" alt="profile">
                   </div>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
-                    quibusdam consequatur
-                    eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <p>When I see a pair of shoes that I love, it doesn't matter if they're my size or not, I buy them!</p>
                   <div class="client__info">
-                    <h3>John Smith</h3>
-                    <span>Founder at Apple</span>
+                    <h3>Keira Knightley</h3>
                   </div>
                 </div>
               </li>
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="./images/profile3.jpg" alt="profile">
+                    <img src="./images/products/profile/p3.jpg" alt="profile">
                   </div>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
-                    quibusdam consequatur
-                    eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <p>I would hate for someone to look at my shoes and say, “Oh my God! They look so comfortable!</p>
                   <div class="client__info">
-                    <h3>John Smith</h3>
-                    <span>Founder at Apple</span>
+                    <h3>Christian Louboutin</h3>
                   </div>
                 </div>
 
@@ -850,19 +834,11 @@
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="./images/profile4.jpg" alt="">
+                    <img src="./images/products/profile/p5.jpg" alt="profile">
                   </div>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
-                    quibusdam consequatur
-                    eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.
-                    hic
-                    nesciunt tempore
-                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <p>Give a woman nice shoes and she can take over the world</p>
                   <div class="client__info">
-                    <h3>John Smith</h3>
-                    <span>Founder at Apple</span>
+                    <h3>Marilyn Monroe</h3>
                   </div>
                 </div>
               </li>

@@ -41,7 +41,7 @@ const displayProductItems = items => {
                           <use xlink:href="./images/sprite.svg#icon-star-full"></use>
                         </svg>
                         <svg>
-                          <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                          <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
                         </svg>
                         <svg>
                           <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
@@ -50,7 +50,9 @@ const displayProductItems = items => {
                       <div class="product__price">
                         <h4>$${product.price}</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                          <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="product__btn" name="action" value="1">Add To Cart</button></a>
+                      </form>
                     </div>
                   <ul>
                       <li>
