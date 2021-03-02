@@ -1055,13 +1055,13 @@
       </div>
       <div class="popup__left">
         <div class="popup-img__container">
-          <img class="popup__img" src="./images/popup.jpg" alt="popup">
+          <img class="popup__img" src="./images/profile11.jpg" alt="popup">
         </div>
       </div>
       <div class="popup__right">
         <div class="right__content">
-          <h1>Get Discount <span>30%</span> Off</h1>
-          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          <h1>Get Discount <span>40%</span> Off</h1>
+          <p>If you do not have a Shoes.com user account, use this option to access the registration form
           </p>
           <form action="#">
             <input type="email" placeholder="Enter your email..." class="popup__form">

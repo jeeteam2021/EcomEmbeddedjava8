@@ -69,7 +69,7 @@ Header
 
 .header {
   position: relative;
-  background:yellow; /* entete */
+  background:#000000; /* entete */
 }
 
 .container {
@@ -111,7 +111,7 @@ Navigation
 
 .nav__logo a {
   font-size: 2.5rem;
-  color: var(--black);
+  color: #ffffff;
   padding: 1.6rem;
   font-weight: 700;
 }
@@ -139,6 +139,7 @@ Navigation
   align-items: center;
   height: 100%;
   width: 50%;
+  
 }
 
 .nav__item:not(:last-child) {
@@ -150,12 +151,14 @@ Navigation
   display: inline-block;
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: var(--black);
+  
   transition: color 0.3s ease-in-out;
+  color: #ffffff;
 }
 
 .nav__list .nav__link:hover {
-  color: var(--orange);
+  
+   color:#ffffff;
 }
 
 .nav__icons {
@@ -166,6 +169,7 @@ Navigation
 .nav__icons .icon__item svg {
   width: 1.6rem;
   height: 1.6rem;
+  color:#ffffff;
 }
 
 .nav__icons .icon__item {
@@ -180,12 +184,13 @@ Navigation
 
 .nav__icons .icon__item:link,
 .nav__icons .icon__item:visited {
-  color: var(--black);
+  color:#ffffff;
 }
 
 .nav__icons .icon__item:hover {
   background-color: var(--orange);
   border: 1px solid var(--black);
+  
 }
 
 .nav__icons .icon__item:not(:last-child) {
@@ -254,6 +259,7 @@ Navigation Media Query
     z-index: 9990;
     height: 100%;
     transition: all 0.5s;
+    
   }
 
   .nav__menu.open {
@@ -321,6 +327,7 @@ Navigation Media Query
     opacity: 0.7;
     z-index: 999;
     transition: 0.8s;
+    
   }
 }
 
@@ -347,6 +354,7 @@ Hero Area
   position: relative;
   width: 100%;
   height: 100vh;
+   background-color:#ffffff;
   
 }
 
@@ -1081,6 +1089,8 @@ Pop Up
   z-index: 9999;
   transition: 0.3s;
   transform: scale(1);
+ 
+   
 }
 
 .popup__content {
@@ -1095,6 +1105,8 @@ Pop Up
   display: table;
   overflow: hidden;
   background-color: var(--white);
+   background-color:#c0c0c0;
+   
 }
 
 .popup__close {
@@ -1120,6 +1132,7 @@ Pop Up
   width: 50%;
   height: 100%;
   vertical-align: middle;
+  
 }
 
 .popup__right {
@@ -1127,6 +1140,7 @@ Pop Up
   width: 50%;
   vertical-align: middle;
   padding: 3rem 5rem;
+
 }
 
 .popup-img__container {
@@ -1150,19 +1164,21 @@ Pop Up
 }
 
 .right__content h1 {
-  font-size: 4rem;
-  color: #000;
+  font-size: 6rem;
+  color: #000000;
   margin-bottom: 1.6rem;
+  font-family: Texte en Comic Sans MS;
 }
 
 .right__content h1 span {
-  color: var(--green);
+  color:#800000;
 }
 
 .right__content p {
   font-size: 1.8rem;
-  color: var(--grey2);
+  color: #647c9b;
   margin-bottom: 1.6rem;
+  font-family: calibri;
 }
 
 .popup__form {
@@ -1186,13 +1202,13 @@ Pop Up
   border-radius: 3rem;
   font-weight: 700;
   color: var(--white);
-  background-color: var(--black);
+  background-color: #808080;
   border: 1px solid var(--grey2);
   transition: 0.3s;
 }
 
 .right__content a:hover {
-  background-color: var(--green);
+  background-color: #f76809;
   border: 1px solid var(--grey2);
   color: var(--black);
 }
@@ -1201,6 +1217,7 @@ Pop Up
   transform: scale(0.2);
   opacity: 0;
   visibility: hidden;
+  
 }
 
 /*
