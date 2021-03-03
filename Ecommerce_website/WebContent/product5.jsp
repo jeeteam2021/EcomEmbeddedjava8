@@ -101,7 +101,7 @@
                 </svg>
               </a>
             </li>
-            <li class="page__title">iPhone 11</li>
+            <li class="page__title">Shoes</li>
           </ul>
         </div>
       </div>

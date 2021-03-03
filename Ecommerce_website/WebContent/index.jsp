@@ -862,7 +862,7 @@
           <div class="section__titles">
             <div class="section__title active">
               <span class="dot"></span>
-              <h1 class="primary__title">Phone News</h1>
+              <h1 class="primary__title">Shoes News</h1>
             </div>
           </div>
         </div>
@@ -880,7 +880,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                         <a href="#"><button onclick="window.location.href = 'https://news.nike.com/';">Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -894,7 +894,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="#"><button onclick="window.location.href = 'https://news.adidas.com/';">Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -908,7 +908,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="#"><button onclick="window.location.href = 'https://sneakernews.com/air-jordan-release-dates/';">Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -922,7 +922,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="#"><button onclick="window.location.href = 'https://sneakernews.com/category/puma/';">Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -936,7 +936,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="#"><button onclick="window.location.href = 'https://news.nike.com/';">Read More</button></a>
                     </div>
                   </div>
                 </li>

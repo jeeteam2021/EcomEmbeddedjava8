@@ -10,7 +10,7 @@ Reset
   --black3: #252525;
   --black4: #000;
   --black5: #212529;
-  --orange:#ff0000;
+  --orange:#0000ff;
   --white: #fff;
   --grey: #959595;
   --grey2: #666;
@@ -69,7 +69,7 @@ Header
 
 .header {
   position: relative;
-  background:#000000; /* entete */
+  background:#055e7a; /* entete */
 }
 
 .container {
@@ -111,7 +111,7 @@ Navigation
 
 .nav__logo a {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #000000;
   padding: 1.6rem;
   font-weight: 700;
 }
@@ -119,15 +119,18 @@ Navigation
 .nav__hamburger {
   display: none;
   cursor: pointer;
+  
 }
 
 .nav__hamburger svg {
   height: 2.3rem;
   width: 2.3rem;
+  
 }
 
 .menu__top {
   display: none;
+  
 }
 
 .nav__menu {
@@ -153,23 +156,24 @@ Navigation
   text-transform: uppercase;
   
   transition: color 0.3s ease-in-out;
-  color: #ffffff;
+  color: #000000;
 }
 
 .nav__list .nav__link:hover {
   
-   color:#ffffff;
+   color:#000000;
 }
 
 .nav__icons {
   display: flex;
   position: relative;
+  color:#000000;
 }
 
 .nav__icons .icon__item svg {
   width: 1.6rem;
   height: 1.6rem;
-  color:#ffffff;
+  color:#000000;
 }
 
 .nav__icons .icon__item {
@@ -184,12 +188,12 @@ Navigation
 
 .nav__icons .icon__item:link,
 .nav__icons .icon__item:visited {
-  color:#ffffff;
+  color:#000000;
 }
 
 .nav__icons .icon__item:hover {
   background-color: var(--orange);
-  border: 1px solid var(--black);
+  border: red;
   
 }
 
@@ -661,7 +665,12 @@ Collection Media Query
     font-size: 2rem;
   }
 }
-
+/*
+======================
+youssef
+======================
+*/
+ 
 /*
 ======================
 Latest Products
@@ -675,6 +684,7 @@ Latest Products
   margin: 0 auto 6rem;
   padding: 2rem 0;
   background-color: var(--primaryColor);
+  background-color: #804000;
 }
 
 .section__titles:not(:last-child) {
@@ -691,12 +701,14 @@ Latest Products
 .section__title h1 {
   font-size: 1.9rem;
   font-weight: inherit;
+  color:#ffffff;
 }
 
 .section__title:hover .primary__title,
 .section__title:hover span.dot,
 .section__title:hover span.dot::before {
   opacity: 1;
+  background-color: #000000;
 }
 
 .section__title .primary__title {
@@ -866,6 +878,7 @@ span.dot::before {
 
 .product__footer {
   padding: 1rem 0;
+  
 }
 
 .rating svg {
@@ -876,6 +889,7 @@ span.dot::before {
 
 .product__footer h3 {
   padding: 1rem 0;
+  
 }
 
 .product__footer .product__price {
@@ -893,8 +907,9 @@ span.dot::before {
   width: 100%;
   padding: 1.4rem 0;
   border: 1px solid var(--black);
-  color: red;
+  color: #80ffff;
   cursor: pointer;
+  background-color: #ff0000;
 }
 
 .product__btn:focus {
@@ -902,7 +917,7 @@ span.dot::before {
 }
 
 .product__btn:hover {
-  background-color: #ff8040;
+  background-color: #80ff80;
   color: var(--primaryColor);
 }
 
@@ -1401,6 +1416,7 @@ Facility
   border: 1.5px solid var(--white);
   z-index: 1;
   margin-bottom: 1.6rem;
+  background-color: #ffff00;
 }
 
 .facility-img__container::before {
@@ -1415,11 +1431,13 @@ Facility
   margin: 0.7rem;
   background-color: var(--white);
   z-index: -1;
+  
 }
 
 .facility__box:hover svg {
   transform: rotateY(180deg);
   line-height: 9.5rem;
+  
 }
 
 /*
@@ -1599,6 +1617,7 @@ News Section
 
 .card__footer {
   padding: 3rem 1.4rem;
+   background-color:#8080ff;
 }
 
 .card__footer h3 {
@@ -1606,6 +1625,7 @@ News Section
   font-weight: 600;
   color: var(--black);
   margin-bottom: 1rem;
+ 
 }
 
 .card__footer span {
@@ -1638,7 +1658,8 @@ News Section
 .card__footer a button:hover {
   border: 1px solid var(--black);
   color: var(--white);
-  background-color: var(--black);
+  background-color: red;
+  
 }
 
 /*
@@ -1766,6 +1787,7 @@ Footer
   background-color: var(--black3);
   padding: 6rem 1rem;
   line-height: 3rem;
+  
 }
 
 .footer-top__box span svg {
@@ -1776,12 +1798,14 @@ Footer
 
 .footer-top__box span {
   margin-right: 1rem;
+  
 }
 
 .footer__top {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: var(--grey3);
+  
 }
 
 .footer-top__box a:link,
@@ -1972,6 +1996,7 @@ Product Details
 .product__review a:visited {
   color: var(--black);
 }
+
 
 .product-detail__content p {
   font-size: 1.4rem;
@@ -2467,4 +2492,7 @@ Cart Area Media Query
     width: 1.5rem;
     height: 1.5rem;
   }
+}
+.content active {
+	 background-color: red;
 }

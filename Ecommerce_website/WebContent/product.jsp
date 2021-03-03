@@ -21,7 +21,7 @@
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="styles.css" />
 
-  <title>Phone Shop</title>
+  <title>Shoes Shop</title>
 </head>
 
 <body>
@@ -162,7 +162,7 @@
 
        <div class="product-detail__right">
             <div class="product-detail__content">
-              <h3>Ozweego white</h3>
+              <h3>VANS</h3>
               <div class="price">
                 <span class="new__price">$120.99</span>
               </div>
@@ -187,9 +187,9 @@
                 <a href="#" class="rating__quatity">5 reviews</a>
               </div>
               <p>
-                Adidas has always been a pretty popular brand with me! I love their
+                Vans has always been a pretty popular brand with me! I love their
                  shoes! They are high quality made, stylish, and last forever!! 
-                 Their shoes are also great! I love adidas
+                 Their shoes are also great! I love vans
               </p>
               <div class="product__info-container">
                 <ul class="product__info">
@@ -245,19 +245,12 @@
                       <select name="colors" id="colors" class="select-box">
                         <option value="USA">USA</option>
                         <option value="China">China</option>
+                        <option value="China">Morocco</option>
                       </select>
                     </div>
                   </li>
                   <li>
-                    <span class="buy-now-wrap" aria-haspopup="true" aria-expanded="false">
-                    <button title="" type="button" class="next-btn next-large next-btn-primary buynow" 
-                    role="button" data-spm-anchor-id="a2g0o.detail.1000016.i6.7aa477f6A6ojo9">Acheter maintenant</button>
-                    </span>
-                    <span class="addcart-wrap" aria-haspopup="true" aria-expanded="false"><button title="" type="button" 
-                    class="next-btn next-large next-btn-primary addcart" role="button">Ajouter au panier</button></span>
-                  </li>
-                  
-                  </a>
+                   
                 </div>
               </div>
             </div>
@@ -292,7 +285,7 @@
           <div class="detail__content">
             <div class="content active" id="description">
 		      <ol>
-                <li>We can accept drop shipping.</li>
+                <p>We can accept drop shipping.</p>
                 <li>If the customer is US or CA, I suggest choosing UPS. (5 ~ 8 days delivery).</li>
                 <li>We will send out every order ASAP.</li>
                 <li>We will never put invoices, QR codes, promotions or brand logo or anything on 
