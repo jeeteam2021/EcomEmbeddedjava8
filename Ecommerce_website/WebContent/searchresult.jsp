@@ -22,7 +22,7 @@
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="styles.css" />
 
-  <title>Phone Shop</title>
+  <title>SHOES Shop</title>
 </head>
 
 <body>
@@ -40,13 +40,13 @@
 
           <div class="nav__logo">
             <a href="/" class="scroll-link">
-              PHONE
+              SHOES
             </a>
           </div>
 
           <div class="nav__menu">
             <div class="menu__top">
-              <span class="nav__category">PHONE</span>
+              <span class="nav__category">s</span>
               <a href="#" class="close__toggle">
                 <svg>
                   <use xlink:href="./images/sprite.svg#icon-cross"></use>
@@ -108,24 +108,55 @@
       </div>
     </section>
     <!-- NewsLetter -->
-    <section class="section newsletter" id="contact">
-      <div class="container">
-        <div class="newsletter__content">
-          <div class="newsletter__data">
-            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-            <p>A short sentence describing what someone will receive by subscribing</p>
-          </div>
-          <form action="#">
-            <input type="email" placeholder="Enter your email address" class="newsletter__email">
-            <a class="newsletter__link" href="#">subscribe</a>
-          </form>
-        </div>
-      </div>
-    </section>
+   
 
   </main>
 
   <!-- End Main -->
+
+  <!-- Footer -->
+ <section class="facility__section section" id="facility">
+      <div class="container">
+        <div class="facility__contianer">
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-airplane"></use>
+              </svg>
+            </div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-credit-card-alt"></use>
+              </svg>
+            </div>
+            <p>100% MONEY BACK GUARANTEE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <p>MANY PAYMENT GATWAYS</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-headphones"></use>
+              </svg>
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer id="footer" class="section footer">
@@ -163,7 +194,7 @@
                 <use xlink:href="./images/sprite.svg#icon-location"></use>
               </svg>
             </span>
-            42 Dream House, Dreammy street, 7131 Dreamville, USA
+            89, Allal El Fassi, Rabat, Morocco
           </div>
           <div>
             <span>
@@ -171,7 +202,7 @@
                 <use xlink:href="./images/sprite.svg#icon-envelop"></use>
               </svg>
             </span>
-            company@gmail.com
+            JEE_TEAM@gmail.com
           </div>
           <div>
             <span>
@@ -181,14 +212,7 @@
             </span>
             456-456-4512
           </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
-              </svg>
-            </span>
-            Dream City, USA
-          </div>
+
         </div>
       </div>
     </div>
@@ -202,7 +226,9 @@
     </div>
     </div>
   </footer>
+
   <!-- End Footer -->
+
   <!-- Go To -->
 
   <a href="#header" class="goto-top scroll-link">
@@ -211,9 +237,9 @@
     </svg>
   </a>
 
-
   <!-- Glide Carousel Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
   <!-- Animate On Scroll -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -221,7 +247,6 @@
   <script src="./js/products.js"></script>
   <script src="./js/index.js"></script>
   <script src="./js/slider.js"></script>
-
 </body>
 
 </html>

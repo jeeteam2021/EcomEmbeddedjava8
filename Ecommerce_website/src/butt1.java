@@ -86,6 +86,21 @@ public class butt1 extends HttpServlet {
 			this.getServletContext().getRequestDispatcher("/https://news.nike.com/news").forward(request, response);
 
 		}
+		if("11".equals(action))
+		{
+			this.getServletContext().getRequestDispatcher("/cart.jsp").forward(request, response);
+
+		}
+		if("12".equals(action))
+		{
+			this.getServletContext().getRequestDispatcher("/cart2.jsp").forward(request, response);
+
+		}
+		if("14".equals(action))
+		{
+			this.getServletContext().getRequestDispatcher("/cart3.jsp").forward(request, response);
+
+		}
 	}
 
 }

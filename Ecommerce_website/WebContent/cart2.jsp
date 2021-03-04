@@ -176,15 +176,65 @@
                                         
                                     </tr>
                                 </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            <a href="#">
+                                                <img src="./images/products/jr/jr2.jpg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Jordan</a>
+                                            <br><br>
+                                            <small>Grey/36</small>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">$110.99</span>
+                                            </div>
+                                        </td>
+                                        <td class="product__quantity">
+                                            <div class="input-counter">
+                                                <div>
+                                                    <span class="minus-btn">
+                                                        <svg>
+                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
+                                                        </svg>
+                                                    </span>
+                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
+                                                    <span class="plus-btn">
+                                                        <svg>
+                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="product__subtotal">
+                                            <div class="price">
+                                                <span class="new__price">$110.99</span>
+                                            </div>
+                                            <a href="#" class="remove__cart-item">
+                                                <svg>
+                                                    <use xlink:href="./images/sprite.svg#icon-trash"></use>
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                
+                                       
+                                        
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
+                        
 
                         <div class="cart-btns">
-                         <form action="butt1" method="Post">
                             <div class="continue__shopping">
                                 <a href="/">Continue Shopping</a>
                             </div>
-                            </form>
                             <div class="check__shipping">
                                 <input type="checkbox">
                                 <span>Shipping(+7$)</span>
@@ -196,7 +246,7 @@
                             <ul>
                                 <li>
                                     Subtotal
-                                    <span class="new__price">$120.99</span>
+                                    <span class="new__price">$231..98</span>
                                 </li>
                                 <li>
                                     Shipping
@@ -204,7 +254,7 @@
                                 </li>
                                 <li>
                                     Total
-                                    <span class="new__price">$127.99</span>
+                                    <span class="new__price">$238.98</span>
                                 </li>
                             </ul>
                             <a href="">PROCEED TO CHECKOUT</a>

@@ -2493,6 +2493,50 @@ Cart Area Media Query
     height: 1.5rem;
   }
 }
-.content active {
-	 background-color: red;
+#description p {
+	 color:#ffffff;
+	  font-size: 1.5rem;
+  padding: 1.2rem 3rem;
+   background-color: #7c6543;
+  text-transform: uppercase;
+  border: 1px solid var(--black);
+  transition: all 0.4s ease-in-out;
+	 
+}
+#reviews span {
+	 color:#0000a0;
+	 width: 4rem;
+    padding: 1rem 0;
+    font:Verdana, Geneva, sans-serif;
+font-size:40px;
+text-align:left;
+height:50px;
+vertical-align:middle;
+line-height: 70px;
+}
+#reviews div {
+	color:#ff0000;
+	text-align:120rem ;
+ text-align: center;
+	}
+#shipping p {
+	color:#800000;
+	 text-align: center;
+}
+#shipping h3 {
+	color:#ff0000;
+	 text-align: center;
+}
+.product-specs li {
+	color:#0000ff;
+	 text-align: center;
+}
+.tab-inner span {
+		color:#ff0000;
+		 font-size:40px;
+text-align:left;
+height:50px;
+vertical-align:middle;
+line-height: 70px;
+	
 }

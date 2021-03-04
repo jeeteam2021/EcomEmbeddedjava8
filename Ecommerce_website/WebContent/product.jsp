@@ -142,13 +142,14 @@
             </div>
 
             <div class="product-details__btn">
-              <a class="add" href="#">
-                <span>
-                  <svg>
+              
                     <use xlink:href="./images/sprite.svg#icon-cart-plus"></use>
-                  </svg>
-                </span>
-                ADD TO CART</a>
+                  
+                  <form action="butt1" method="Post">
+                      <a href="#"><button type="submit" class="add" name="action" value="11">Add To Cart</button></a>
+                      </form>
+                  </span>
+                
               <a class="buy" href="#">
                 <span>
                   <svg>
@@ -286,13 +287,13 @@
             <div class="content active" id="description">
 		      <ol>
                 <p>We can accept drop shipping.</p>
-                <li>If the customer is US or CA, I suggest choosing UPS. (5 ~ 8 days delivery).</li>
-                <li>We will send out every order ASAP.</li>
-                <li>We will never put invoices, QR codes, promotions or brand logo or anything on 
-                aliexpress in drop shipping shipment.</li>
-                <li>I will pay attention to every drop shipping order.</li>
-                <li>We will make sure there is enough inventory.</li>
-                <li>We can provide customized services.</li>
+                <p>If the customer is US or CA, I suggest choosing UPS. (5 ~ 8 days delivery).</p>
+                <p>We will send out every order ASAP.</p>
+                <p>We will never put invoices, QR codes, promotions or brand logo or anything on 
+                aliexpress in drop shipping shipment.</p>
+                <p>I will pay attention to every drop shipping order.</p>
+                <p>We will make sure there is enough inventory.</p>
+                <p>We can provide customized services.</p>
               </ol>
              	<img src="https://ae01.alicdn.com/kf/Hb3da34b7a28e4277aab3e02bd9ba01c8G.jpg" 
              	class="detail-desc-decorate-image" style="margin-bottom: 10px;
@@ -382,8 +383,7 @@
           </div>
           <div class="tab-inner" data-spm-anchor-id="a2g0o.detail.0.i10.473c5fdbTooAad"><span class="tab-inner-text" 
           data-spm-anchor-id="a2g0o.detail.0.i9.473c5fdbTooAad">DETAILS</span></div>
-          <span class="tab-inner-text" data-spm-anchor-id="a2g0o.detail.0.i9.473c5fdbTooAad">DETAILS</span>
-          </div>
+          
           
           
           <div style="display: block;"><div class="product-specs">
@@ -391,7 +391,7 @@
           <li class="product-prop line-limit-length" data-spm-anchor-id="a2g0o.detail.0.i12.473c5fdbTooAad">
           <span class="property-title" data-spm-anchor-id="a2g0o.detail.0.i13.473c5fdbTooAad">Brand name:&nbsp;</span>
           <span class="property-desc line-limit-length" title="hecrafted" 
-          data-spm-anchor-id="a2g0o.detail.0.i16.473c5fdbTooAad">Adidas</span>
+          data-spm-anchor-id="a2g0o.detail.0.i16.473c5fdbTooAad">vans</span>
           </li><li class="product-prop line-limit-length"><span class="property-title">type of shoes:&nbsp;</span>
           <span class="property-desc line-limit-length" title="De base">Espadrilles</span></li>
           <li class="product-prop line-limit-length"><span class="property-title">Original:&nbsp;</span>

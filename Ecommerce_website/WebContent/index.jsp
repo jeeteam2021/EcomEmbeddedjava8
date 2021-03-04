@@ -115,9 +115,7 @@
                   <span class="">Nouvelle inspiration 2021</span>
                   <h1 class="">Chaussures faites pour vous</h1>
                   <p>Tendances de la collection des chaussures 2021</p>
-                  <form action="butt1" method="Post">
-                  <a href="#"><button name="action" class="hero__btn" value="jk">Achetez maintenant</button></a>
-                  </form>
+                 
                 </div>
                 <div class="hero__right">
                   <div class="hero__img-container">
@@ -876,10 +874,9 @@
                       <img src="./images/products/boutique/b1.jpg" alt="">
                     </div>
                     <div class="card__footer">
-                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <h3>Shop for Men Shoes at Nike.com. Browse a variety of styles and order online.</h3>
                       <span>By Admin</span>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
-                        provident rem sed minus natus unde vel modi!</p>
+                      <p>we only send new products. Our inventory was sent from Amazon. If an item has been soiled, please contact us.</p>
                          <a href="#"><button onclick="window.location.href = 'https://news.nike.com/';">Read More</button></a>
                     </div>
                   </div>
@@ -890,10 +887,9 @@
                       <img src="./images/products/boutique/b2.jpg" alt="">
                     </div>
                     <div class="card__footer">
-                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <h3>Shop for Men Shoes at Nike.com. Browse a variety of styles and order online.</h3>
                       <span>By Admin</span>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
-                        provident rem sed minus natus unde vel modi!</p>
+                      <p>we only send new products. Our inventory was sent from Amazon. If an item has been soiled, please contact us.</p>
                       <a href="#"><button onclick="window.location.href = 'https://news.adidas.com/';">Read More</button></a>
                     </div>
                   </div>
@@ -904,10 +900,9 @@
                       <img src="./images/products/boutique/b3.jpg" alt="">
                     </div>
                     <div class="card__footer">
-                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <h3>Shop for Men Shoes at jordan.com. Browse a variety of styles and order online.</h3>
                       <span>By Admin</span>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
-                        provident rem sed minus natus unde vel modi!</p>
+                      <p>we only send new products. Our inventory was sent from Amazon. If an item has been soiled, please contact us</p>
                       <a href="#"><button onclick="window.location.href = 'https://sneakernews.com/air-jordan-release-dates/';">Read More</button></a>
                     </div>
                   </div>
@@ -918,10 +913,9 @@
                       <img src="./images/products/boutique/b4.png" alt="">
                     </div>
                     <div class="card__footer">
-                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <h3>Shop for Men Shoes at adidas.com. Browse a variety of styles and order online.</h3>
                       <span>By Admin</span>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
-                        provident rem sed minus natus unde vel modi!</p>
+                      <p>we only send new products. Our inventory was sent from Amazon. If an item has been soiled, please contact us</p>
                       <a href="#"><button onclick="window.location.href = 'https://sneakernews.com/category/puma/';">Read More</button></a>
                     </div>
                   </div>
@@ -932,10 +926,9 @@
                       <img src="./images/products/boutique/b5.jpg" alt="">
                     </div>
                     <div class="card__footer">
-                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <h3>Shop for Men Shoes at puma.com. Browse a variety of styles and order online.</h3>
                       <span>By Admin</span>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
-                        provident rem sed minus natus unde vel modi!</p>
+                      <p>we only send new products. Our inventory was sent from Amazon. If an item has been soiled, please contact us</p>
                       <a href="#"><button onclick="window.location.href = 'https://news.nike.com/';">Read More</button></a>
                     </div>
                   </div>
@@ -969,7 +962,7 @@
   <!-- End Main -->
 
   <!-- Footer -->
-  <footer id="footer" class="section footer">
+ <footer id="footer" class="section footer">
     <div class="container">
       <div class="footer__top">
         <div class="footer-top__box">
@@ -1004,7 +997,7 @@
                 <use xlink:href="./images/sprite.svg#icon-location"></use>
               </svg>
             </span>
-            42 Dream House, Dreammy street, 7131 Dreamville, USA
+            89, Allal El Fassi, Rabat, Morocco
           </div>
           <div>
             <span>
@@ -1012,7 +1005,7 @@
                 <use xlink:href="./images/sprite.svg#icon-envelop"></use>
               </svg>
             </span>
-            company@gmail.com
+            JEE_TEAM@gmail.com
           </div>
           <div>
             <span>
@@ -1022,14 +1015,7 @@
             </span>
             456-456-4512
           </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
-              </svg>
-            </span>
-            Dream City, USA
-          </div>
+
         </div>
       </div>
     </div>
@@ -1043,34 +1029,8 @@
     </div>
     </div>
   </footer>
-  <!-- End Footer -->
 
-  <!-- PopUp -->
-  <div class="popup hide__popup">
-    <div class="popup__content">
-      <div class="popup__close">
-        <svg>
-          <use xlink:href="./images/sprite.svg#icon-cross"></use>
-        </svg>
-      </div>
-      <div class="popup__left">
-        <div class="popup-img__container">
-          <img class="popup__img" src="./images/profile11.jpg" alt="popup">
-        </div>
-      </div>
-      <div class="popup__right">
-        <div class="right__content">
-          <h1>Get Discount <span>40%</span> Off</h1>
-          <p>If you do not have a Shoes.com user account, use this option to access the registration form
-          </p>
-          <form action="#">
-            <input type="email" placeholder="Enter your email..." class="popup__form">
-            <a href="#">Subscribe</a>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- End Footer -->
 
   <!-- Go To -->
 
@@ -1080,9 +1040,9 @@
     </svg>
   </a>
 
-
   <!-- Glide Carousel Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
   <!-- Animate On Scroll -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -1090,7 +1050,6 @@
   <script src="./js/products.js"></script>
   <script src="./js/index.js"></script>
   <script src="./js/slider.js"></script>
-
 </body>
 
 </html>
